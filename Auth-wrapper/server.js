@@ -44,7 +44,7 @@ app.use(express.static(path.join(__dirname, "../DevBreif/dist")));
 
 /* ---------------- REACT ROUTER SUPPORT ---------------- */
 
-app.get((req, res) => {
+app.get("/",(req, res) => {
   res.sendFile(path.join(__dirname, "../DevBreif/dist/index.html"));
 });
 
