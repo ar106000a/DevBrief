@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "build": "cd DevBreif && npm install && npm run build && cd ../Auth-wrapper && npm install",
+    "start": "cd DevBreif  && node server.js"
+  }
+}
