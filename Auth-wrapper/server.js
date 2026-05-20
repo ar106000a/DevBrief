@@ -29,7 +29,7 @@ app.set("trust proxy", 1);
 app.use(express.json());
 app.use(cookieParser());
 app.use(helmet());
-app.get("/", (req, res) => res.status(200).send("OK"));
+// app.get("/", (req, res) => res.status(200).send("OK"));
 
 app.use("/api/auth", authRoute);
 
