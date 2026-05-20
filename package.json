@@ -1,9 +1,16 @@
 {
   "dependencies": {
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "scripts": {
     "build": "cd DevBreif && npm install && npm run build && cd ../Auth-wrapper && npm install",
     "start": "cd DevBreif  && node server.js"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2"
   }
 }
